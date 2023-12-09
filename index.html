@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Sign Up Form</title>
+	<link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+	<!--<div class="blank-black-bg"></div>-->
+	<div class="body-container">
+	<div class="bg-left">
+		<div class="logo-container">
+			<img class="logo" src="./odin-lined.png" alt="Odin logo">
+			<span class="logo-name">ODIN</span>
+		</div>
+	</div>
+	<div class="content-container">
+		<p class="heading-para">This is not a real form. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos cumque ullam soluta.
+			<br> Sign up <em>now</em> to get started.
+		</p>
+		<p class="heading-para">You <em>know</em> you want to.</p>
+		<form class="form" action="" id="sign-up-form">
+			<h1>Let's do this!</h1>
+			<div class="columns-container">
+				<div class="form-column">
+					<div><label for="">FIRST NAME</label><input type="text"></div>
+					<div><label for="">EMAIL</label><input type="text"></div>
+					<div><label for="">PASSWORD</label><input type="text" class="password" id="password">
+						<div id="error-message">* Passwords do not match</div>
+					</div>
+				</div>
+	
+				<div class="form-column">
+					<div><label for="">LAST NAME</label><input type="text"></div>
+					<div><label for="">PHONE NUMBER</label><input type="text"></div>
+					<div><label for="">CONFIRM PASSWORD</label><input type="text" class="password" id="repeat-password"></div>
+				</div>
+	
+			</div>
+
+		</form>
+		<button type="submit" form="sign-up-form">Create Account</button>
+		<p>Already have an account? <a href=""><span>Log in</span></a></p>
+	</div>
+</div>
+<!--<div class="blank-black-bg"></div>-->
+<script src="./code.js"></script>
+</body>
+</html>
